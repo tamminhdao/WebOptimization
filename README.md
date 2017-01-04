@@ -20,7 +20,7 @@ Result: A much improved profolio page can be view at: https://tamminhdao.github.
 
 1. Change made to function resizePizzas():
     1. Replace querySelector with getElementById
-2. Delete 2 functions determineDx () and SizeSwitcher (size) 
+2. Delete 2 functions determineDx() and SizeSwitcher(size) 
 3. Rewrite the function changePizzaSizes(size)
 4. Change made to function updatePositions():
     1. Take care of var phase outside of for loop to minimize repeatative calculation in the loop body
