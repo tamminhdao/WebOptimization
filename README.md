@@ -18,15 +18,15 @@ Result: A much improved profolio page can be view at: https://tamminhdao.github.
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
-1. Change made to function resizePizzas ():
-    a. Replace querySelector with getElementById
+1. Change made to function resizePizzas():
+    1. Replace querySelector with getElementById
 2. Delete 2 functions determineDx () and SizeSwitcher (size) 
 3. Rewrite the function changePizzaSizes(size)
-4. Change made to function updatePositions ():
-    a. Take care of var phase outside of for loop to minimize repeatative calculation in the loop body
-    b. Replace querySelectorAll with getElementsByClassName
-    c. Move var items outside of the function because it only needs to be ran once
-    d. Create a variable lenn for items.length
+4. Change made to function updatePositions():
+    1. Take care of var phase outside of for loop to minimize repeatative calculation in the loop body
+    2. Replace querySelectorAll with getElementsByClassName
+    3. Move var items outside of the function because it only needs to be ran once
+    4. Create a variable lenn for items.length
 5. Line 518: Reduce the number of sliding pizzas from 200 to 30
 
 ### Optimization Tips and Tricks
